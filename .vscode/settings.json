@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "static_funtion.h": "c",
+        "non_static_funtion.h": "c"
+    }
+}
