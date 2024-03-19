@@ -1,15 +1,20 @@
-#include <iostream> // this library stands for input and output stream, this alows get input from the console or output something on the console
-using namespace std; //"std" stands for standard -> inside of iostream, there is
-                     // a namespace is defined call std and inisde of that
-                     // namespace, have all funtion like "cout"
+//Variables in C++
+#include <iostream>
+
 int main() {
-  cout << "hello world" << endl;
+  short a = 'A';
+  char aa = 'A';
+  std::cout << a << std::endl;
+  std::cout << aa << std::endl;
+  std::cout << "bool type is 1 byte" << std::endl;
+  std::cout << "Size of bool: " << sizeof(bool) << " bytes" << std::endl;
+  std::cout << "Size of int: " << sizeof(int) << " bytes" << std::endl;
+  std::cout << "Size of double: " << sizeof(double) << " bytes" << std::endl;
+  std::cout << "Size of long: " << sizeof(long) << " bytes" << std::endl;
+  std::cout << "Size of long long : " << sizeof(long long) << " bytes"
+            << std::endl;
+  // declaring variables with type char, the default is character, other types
+  // are numbers
+  //  bool type is 1 byte in size
   return 0;
 }
-
-
-
-// namespace is just a collection of code. It's a way to divide code up into
-// specific areas. So, one code related to one thing is going to be a one
-// namespace. One code related to another thing is going to be a another
-// namespace
