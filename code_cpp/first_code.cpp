@@ -1,5 +1,5 @@
 // C++ Header Files
-#include "log_test.h"
+#include "../header_file/log.h"
 #include <iostream>
 int main() {
   initlog();
@@ -7,10 +7,8 @@ int main() {
   return 0;
 }
 
-// g++ -o first_code first_code.cpp log_test.cpp
+// g++ -o first_code first_code.cpp ../src_file/log.cpp -I../src_file
 //./first_code
 
-// g++ -c -o first_code.o first_code.cpp   tao file .o ma chua lien ket ngay lap
-// tuc g++ -c -o log_test.o log_test.cpp g++ -o first_code first_code.o
-// log_test.o  lien ket cac file .o lai voi nhau
-//./first_code
+// g++ -o first_code first_code.cpp ../src_file/log.cpp
+//.first_code
