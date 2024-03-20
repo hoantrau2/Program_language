@@ -1,6 +1,5 @@
 // C++ Header Files
 #include "../header_file/log.h"
-#include <iostream>
 int main() {
   initlog();
   log("hello world");
